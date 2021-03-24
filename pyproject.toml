@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "convoluted"
+version = "1.0.0"
+description = "collections"
+authors = ["<48890023@qq.com>"]
+
+[[tool.poetry.source]]
+name = "douban"
+url = "https://pypi.doubanio.com/simple"
+default = true
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+confluent-kafka = "*"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
